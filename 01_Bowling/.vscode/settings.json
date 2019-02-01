@@ -1,0 +1,18 @@
+{
+    "python.pythonPath": "C:\\Users\\rk250080\\AppData\\Local\\Programs\\Python\\Python37-32\\python.exe",
+    "files.autoSave": "afterDelay",
+    "python.unitTest.unittestEnabled": true,
+    "python.unitTest.pyTestEnabled": false,
+    "python.unitTest.nosetestsEnabled": false,
+    "python.unitTest.autoTestDiscoverOnSaveEnabled": false,
+    "python.unitTest.unittestArgs": [
+        "-v",
+        "-s", ".",
+        "-p",
+        "*test*.py"
+    ],
+    "python.autoComplete.extraPaths": [
+        "${env:SPARK_HOME}\\python",
+        "${env:SPARK_HOME}\\python\\pyspark"
+    ]
+}
